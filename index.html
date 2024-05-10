@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Quiz Application</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="app" id="app">
+        <div class="header" id="header">
+          <h1 class="header-text">Simple Quiz Web App</h1>
+          <h2 class="timer" id="timer"></h2>
+        </div>
+        <div class="quiz">
+          <h2 id="question-text" class="question"></h2>
+          <div id="answers-buttons" class="answers-buttons">
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+          </div>
+        </div>
+        <div class="bot-div" id="bot-div">
+          <div class="items-result" id="items-result">
+            <p class="score" id="score">
+              Score : <span class="correct-score" id="correct-score"></span>
+              <span class="slash" id="slash"> / </span
+              ><span id="no-of-items" class="no-of-items"></span>
+            </p>
+            <p class="out-of-text" id="out-of-text"></p>
+          </div>
+          <button id="next-btn" class="next-btn"></button>
+        </div>
+      </div>
+      <footer>&copy; 2024 Charlie P.Sumalag</footer>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>
